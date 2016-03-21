@@ -104,8 +104,8 @@
 							</ul>
 						</li>-->
 						<li><a href="#events">Eventos</a></li>
-						<li><a href="#accommodation">Accommodation</a></li>
-						<!--<li class="dropdown">
+						<!--<li><a href="#accommodation">Accommodation</a></li>
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="index.html#blog">Home Page Blog</a></li>
@@ -378,7 +378,7 @@
 
 		<!-- ========== ACOOMMODATION START ========== -->
 
-		<section id="accommodation"  style="background: #f5f4ec;">
+		<!-- <section id="accommodation"  style="background: #f5f4ec;">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 heading text-center" data-scroll-reveal>
@@ -424,9 +424,96 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
 		<!-- ========== ACCOMMODATION END ========== -->
+		
+		
+                <!-- ========== LOCATION START ========== -->
+                <section id="location">
+
+
+                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw&amp;sensor=true"></script>
+                        <script type="text/javascript">
+                                function initialize() {
+                                        // Create an array of styles.
+                                        var styles = [
+                                          {
+                                            "stylers": [
+                                              { "saturation": -100 },
+                                              { "gamma": 1 }
+                                            ]
+                                          },{
+                                            "featureType": "water",
+                                            "stylers": [
+                                              { "lightness": -12 }
+                                            ]
+                                          }
+                                        ];
+                                        // Create a new StyledMapType object, passing it the array of styles,
+                                        // as well as the name to be displayed on the map type control.
+                                        var styledMap = new google.maps.StyledMapType(styles,
+                                        {name: "Styled Map"});
+                                                                var mapOptions = {
+                                                                        scrollwheel: false,
+                                                                        zoom: 15,
+                                                                        center:
+                                                                          new
+                                                                          google.maps.LatLng(41.795364, -87.590316),
+                                        mapTypeControlOptions: {
+                                          mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                                        }
+                                        }
+                                        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                                        //Associate the styled map with the MapTypeId and set it to display.
+                                        map.mapTypes.set('map_style', styledMap);
+                                        map.setMapTypeId('map_style');
+                                        setMarkers(map, weddingplaces,'images/map-marker.png' );
+                                }
+                                var weddingplaces = [
+                                        ['Ida Noyes. Ceremony 3rd Floor. Pub in Basement.', 41.788034,-87.595683,17],
+                                        ['Valois Restaurant', 41.799768,-87.588364,17],
+                                        ['Hyatt Place, Harper Court', 41.800156,-87.588942, 17]
+                                ];
+                                function setMarkers(map, locations, markerpic) {
+                                        // Add markers to the map
+                                        var image = {
+                                                url: markerpic,
+                                                // This marker is 42 pixels wide by 68 pixels tall.
+                                                size: new google.maps.Size(21,34),
+                                                // The origin for this image is 0,0.
+                                                //origin: new google.maps.Point(0,0),
+                                                origin: null,
+                                                // The anchor for this image is the base of the pin at 20,42.
+                                                //anchor: new google.maps.Point(20, 42)
+                                                anchor: null
+                                        };
+                                        for (var i = 0; i < locations.length; i++) {
+                                                var place = locations[i];
+                                                var myLatLng = new google.maps.LatLng(place[1], place[2]);
+                                                var marker = new google.maps.Marker({
+                                                        position: myLatLng,
+                                                        map: map,
+                                                        icon: image,
+                                                        title: place[0],
+                                                        zIndex: place[3],
+                                                        animation: google.maps.Animation.DROP
+                                                });
+                                                var contentString = "Some content";
+                                                google.maps.event.addListener(marker, "click", function() {
+                                                        infowindow.setContent(this.html);
+                                                        infowindow.open(map, this);
+                                                });
+                                        }
+                                }
+                                google.maps.event.addDomListener(window, 'load', initialize);
+                        </script>
+
+                        <a href="https://www.google.com/maps/d/edit?mid=zwJ5Sc8HIDN4.kHElukijiprI">
+                        <div id="map-canvas"></div>
+                      </a>
+                        <!-- ========== LOCATION END ========== -->
+
 
 		<!-- ========== GALLERY START ========== -->
 
