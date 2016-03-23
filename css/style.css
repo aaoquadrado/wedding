@@ -16,18 +16,19 @@ body {
 
 h1 {
 	color: #fff;
-	font-family: 'Engagement', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-weight: normal;
 	margin: 0;
 }
 
 h2 {
-	font-family: 'Engagement', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-weight: normal;
 	margin: 0;
 }
 
 h3,h4,h5,h6 {
+	font-size: 19px;
 	margin: 3em 0;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -71,7 +72,7 @@ section {
 }
 
 .btn {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Abel", sans-serif;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
 }
@@ -138,6 +139,7 @@ section {
 =========================================================================================*/
 
 .countdown {
+	font-size: 14px;
 	bottom: 30px;
 	left: 50%;
 	margin-left: -225px;
