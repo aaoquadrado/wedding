@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Cadeiras Khobi",
+        "quantity": 6,
+        "status": "a",
+        "image": "img/cadeira.jpg",
+        "price": 109.00,
+        "url": "https://kavehome.com/es/es/silla-khobi-blanco"
+    },
+    {
+        "name": "Mesa sala",
+        "status": "a",
+        "image": "img/mesa.jpg",
+        "price": 479.00,
+        "url":"https://kavehome.com/es/es/mesa-silke-180x90?"
+    },
+    {
+        "name": "Consola Hall de Entrada",
+        "status": "a",
+        "price": 351.00,
+        "image": "img/consola.jpg",
+        "url": "https://kavehome.com/es/es/consola-silke"
+    },
+    {
+        "name": "Banco Taburete Brocsy",
+        "status": "a",
+        "price": 62.00,
+        "image": "img/banco.jpg",
+        "url": "https://kavehome.com/es/es/taburete-brocsy"
+    },
+    {
+        "name": "Cadeiras Kevya",
+        "quantity": 2,
+        "status": "a",
+        "image": "img/cadeira1.jpg",
+        "price": 106.00,
+        "url": "https://kavehome.com/es/es/sillon-kevya-blanco"
+    },
+    {
+        "name": "Cadeiras Ralf",
+        "quantity": 2,
+        "status": "a",
+        "price": 69.00,
+        "image": "img/cadeira_sala.jpg",
+        "url": "https://kavehome.com/es/es/silla-ralf-natural-y-gris-claro?nosto=nosto-page-category1"
+    },
+    {
+        "name": "Candeeiro de Pé Sala",
+        "status": "a",
+        "price": 142.00,
+        "image": "img/candeeiro.jpg",
+        "url": "https://kavehome.com/es/es/lampara-kosta-gris-2876"
+    },
+    {
+        "name": "Estante Sala",
+        "status": "a",
+        "price": 116.00,
+        "image": "img/prate.jpg",
+        "url": "https://kavehome.com/es/es/estanteria-nicole"
+    },
+    {
+        "name": "Conjunto Estantes Metálicas Sala",
+        "status": "a",
+        "price": 76.00,
+        "image": "img/pratele.jpg",
+        "url": "https://kavehome.com/es/es/juego-estanterias-exago"
+    },
+    {
+        "name": "Cadeirão Quarto",
+        "status": "a",
+        "price": 318.00,
+        "image": "img/cadeirao.jpg",
+        "url": "https://kavehome.com/es/es/butaca-obo-gris-oscuro"
+    }
+]
