@@ -67,7 +67,7 @@ img {
 }
 
 section {
-	padding: 80px 0;
+	padding: 40px 0;
 }
 
 .btn {
@@ -258,7 +258,7 @@ section {
 
 .hover-effect i {
 	left: 50%;
-	margin: -20px 0 0 -20px;
+	margin: -30px 0 0 -24px;
 	position: absolute;
 	top: 0;
 	transition: all .3s ease;

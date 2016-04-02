@@ -162,7 +162,7 @@ body .product[status=u] .image:before {
     color: red;
     text-align: center;
     line-height: 50px;
-    content: "INDISPONIVEL"; }
+    content: "Já oferecido"; }
 body .product:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05); }
@@ -208,13 +208,14 @@ body .product .content button {
     margin: 0 2px 2px;
     background-color: lightgray;
 }
+body .product .content button:hover {
+    background-color: #a9a9a9;
+}
 body .product .content button:focus {
     outline: none;
     text-decoration: underline; }
 body .product .content button:hover {
-    cursor: pointer;
-    background-color: #a9a9a9;
-}
+    cursor: pointer; }
 
 @media only screen and (max-width: 736px) {
     body .product {
