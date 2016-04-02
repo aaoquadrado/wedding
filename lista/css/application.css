@@ -212,7 +212,9 @@ body .product .content button:focus {
     outline: none;
     text-decoration: underline; }
 body .product .content button:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    background-color: #a9a9a9;
+}
 
 @media only screen and (max-width: 736px) {
     body .product {
