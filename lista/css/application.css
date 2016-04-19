@@ -156,13 +156,20 @@ body .product[status=u] .price {
 body .product[status=u] form {
     display: none; }
 body .product[status=u] .image:before {
-    height: 50px;
+    height: 222px;
     background: rgba(255, 255, 255, 0.6);
+    background-image: url("../img/obrigado.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 0.9;
     width: 100%;
     color: red;
     text-align: center;
     line-height: 50px;
-    content: "Já oferecido"; }
+    content: " "; }
+body .product[status=u] .image:hover:before {
+    opacity: 0.3;
+}
 body .product:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05); }

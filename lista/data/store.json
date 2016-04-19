@@ -16,7 +16,7 @@
     },
     {
         "name": "Consola Hall de Entrada",
-        "status": "a",
+        "status": "u",
         "price": 351.00,
         "image": "img/consola.jpg",
         "url": "https://kavehome.com/es/es/consola-silke"
@@ -31,7 +31,7 @@
     {
         "name": "Cadeiras Kevya",
         "quantity": 2,
-        "status": "a",
+        "status": "u",
         "image": "img/cadeira1.jpg",
         "price": 106.00,
         "url": "https://kavehome.com/es/es/sillon-kevya-blanco"
@@ -67,7 +67,7 @@
     },
     {
         "name": "Cadeirão Quarto",
-        "status": "a",
+        "status": "u",
         "price": 318.00,
         "image": "img/cadeirao.jpg",
         "url": "https://kavehome.com/es/es/butaca-obo-gris-oscuro"
