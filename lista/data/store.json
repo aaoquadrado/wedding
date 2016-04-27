@@ -53,14 +53,14 @@
     },
     {
         "name": "Estante Sala",
-        "status": "a",
+        "status": "u",
         "price": 116.00,
         "image": "img/prate.jpg",
         "url": "https://kavehome.com/es/es/estanteria-nicole"
     },
     {
         "name": "Conjunto Estantes Metálicas Sala",
-        "status": "a",
+        "status": "u",
         "price": 76.00,
         "image": "img/pratele.jpg",
         "url": "https://kavehome.com/es/es/juego-estanterias-exago"
