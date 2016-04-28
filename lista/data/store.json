@@ -71,5 +71,53 @@
         "price": 318.00,
         "image": "img/cadeirao.jpg",
         "url": "https://kavehome.com/es/es/butaca-obo-gris-oscuro"
+    },
+    {
+        "name": "PALERMO - Faqueiro 114 peças",
+        "status": "a",
+        "store": "luisa",
+        "price": 399.00,
+        "image": "img/faqueiro.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=53"
+    },
+    {
+        "name": "KIKKA - Bateria de Cozinha",
+        "status": "a",
+        "store": "luisa",
+        "price": 549.00,
+        "image": "img/trem.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=34"
+    },
+    {
+        "name": "G-STYLE - Grelhador",
+        "status": "a",
+        "store": "luisa",
+        "price": 159.00,
+        "image": "img/grelhador.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=37"
+    },
+    {
+        "name": "BLOW UP - Centro de mesa",
+        "status": "a",
+        "store": "luisa",
+        "price": 165.00,
+        "image": "img/centro.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=39"
+    },
+    {
+        "name": "LIVING - Prato de forno",
+        "status": "a",
+        "store": "luisa",
+        "price": 185.50,
+        "image": "img/pratodeforno.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=22"
+    },
+    {
+        "name": "LIVING - Tabuleiro de forno",
+        "status": "a",
+        "store": "luisa",
+        "price": 179.80,
+        "image": "img/tabuleirodeforno.jpg",
+        "url": "http://www.aluisa.pt/index.php?sc=visCatg&cod=184&id=21"
     }
 ]

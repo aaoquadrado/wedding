@@ -29,6 +29,15 @@ input, select{
 button{
     font-family: 'Abel', sans-serif;
 }
+.storedivplace{
+    margin-top: 15px;
+    position: absolute;
+}
+.storedivplace > img{
+    right: 0;
+    width: 39%;
+    position: relative;
+}
 .storediv > img{
     left: 50%;
     margin-left: -123px;
