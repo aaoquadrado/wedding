@@ -26,7 +26,8 @@ Superslides = function(el, options) {
 
   var that       = this,
       $control   = $('<div>', { "class": 'slides-control' }),
-      multiplier = 1;
+      multiplier = 1,
+      bottomStart = 100;
 
   this.$el        = $(el);
   this.$container = this.$el.find(this.options.elements.container);
@@ -64,7 +65,7 @@ Superslides = function(el, options) {
         var $children = that.$container.children();
 
         that.width  = that._findWidth();
-        that.height = that._findHeight();
+        that.height = that._findHeight() - bottomStart;
 
         $children.css({
           width: that.width,
@@ -419,7 +420,7 @@ var pagination = {
 
   that._findPositions();
   that.width  = that._findWidth();
-  that.height = that._findHeight();
+  that.height = that._findHeight() - bottomStart;
 
   this.css.children();
   this.css.containers();
