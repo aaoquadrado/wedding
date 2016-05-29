@@ -23,7 +23,7 @@
     },
     {
         "name": "Banco Taburete Brocsy",
-        "status": "a",
+        "status": "u",
         "price": 62.00,
         "image": "img/banco.jpg",
         "url": "https://kavehome.com/es/es/taburete-brocsy"
@@ -39,7 +39,7 @@
     {
         "name": "Cadeiras Ralf",
         "quantity": 2,
-        "status": "a",
+        "status": "u",
         "price": 69.00,
         "image": "img/cadeira_sala.jpg",
         "url": "https://kavehome.com/es/es/silla-ralf-natural-y-gris-claro?nosto=nosto-page-category1"
