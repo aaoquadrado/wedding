@@ -2,7 +2,11 @@
 	"use strict";
 
 	$(document).ready(function() {
-		
+
+
+		var encrypted = {iv:'b0mS5M66f0BoRsXMxgaf3w==',v:1,iter:1000,ks:128,ts:64,mode:'ccm',adata:'',cipher:'aes',salt:'HEia7ilXvGg=',ct:'YBfIo19GW85vmIsPI5JC5Msxaf2SUKHrlytO4igAIIau8umsyIBMyhzkhNrkbPWKRRbRY4hJo7cejc4gxMtKKz6dr0apOCM9f/fZ882JttJUs+5yTh2d'};
+		encrypted = JSON.stringify(encrypted);
+
 		// ====================================================================
 
 		// Navbar position
@@ -35,8 +39,26 @@
 
 		// Superslides
 
+		$('#pass').keyup(function(a){
+			var pass = $('#pass').val();
+			try {
+				var decrypted = sjcl.decrypt(pass, encrypted);
+				var array = decrypted.split('-');
+				var first = array[0];
+				var second = array[1];
+				$('#passContainer').remove();
+				$('#header2').remove();
+				document.getElementById("header").innerHTML = "Obrigado pela vossa presença!";
+				document.getElementById("foto").innerHTML = "Fotos Fotógrafo: <a href='" + first + "' target='_blank'>" + first + "</a>";
+				document.getElementById("photo").innerHTML = "Fotos Photobooth: <a href='" + second + "' target='_blank'>" + second + "</a>";
+
+			}catch (e){
+				console.error(e);
+			}
+		});
+
 		$('#slides').superslides({
-			play: 5000,
+			play: false,
 			animation_speed: 2000,
 			animation: 'fade',
 			pagination: false
